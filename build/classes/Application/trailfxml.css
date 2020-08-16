@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#login {
+    -fx-text-fill:black;
+    -fx-background-color:greenyellow;
+    -fx-background-radius:20px;
+
+    
+}
+
+#cancel{
+    -fx-text-fill:black;
+    -fx-background-color:greenyellow;
+    -fx-background-radius:20px;
+    
+    
+}

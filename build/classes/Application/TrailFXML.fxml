@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="312.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.TrailFXMLController">
+    <stylesheets>
+        <URL value="@trailfxml.css" />
+    </stylesheets>
+   <children>
+      <JFXButton fx:id="login" layoutX="50.0" layoutY="239.0" onAction="#onLogin" prefHeight="42.0" prefWidth="74.0" stylesheets="@trailfxml.css" text="Login" />
+      <JFXButton fx:id="cancel" layoutX="165.0" layoutY="239.0" onAction="#onCancel" prefHeight="42.0" prefWidth="74.0" stylesheets="@trailfxml.css" text="Cancel" />
+      <JFXTextField fx:id="userName" labelFloat="true" layoutX="19.0" layoutY="74.0" prefHeight="26.0" prefWidth="275.0" promptText="Username" />
+      <JFXPasswordField fx:id="password" labelFloat="true" layoutX="19.0" layoutY="154.0" prefHeight="26.0" prefWidth="275.0" promptText="Password" />
+      <Label fx:id="status" layoutX="57.0" layoutY="33.0" prefHeight="26.0" prefWidth="183.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
